@@ -1,0 +1,79 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module funcionesHab</title>
+<meta charset="utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>funcionesHab</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/media/DIURNO/DI/SegundaEvaluacion/Deberes/03-02-2020/Empresa/funcionesHab.py">/media/DIURNO/DI/SegundaEvaluacion/Deberes/03-02-2020/Empresa/funcionesHab.py</a></font></td></tr></table>
+    <p><tt>Módulo&nbsp;que&nbsp;gestiona&nbsp;las&nbsp;habitaciones</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="conexion.html">conexion</a><br>
+</td><td width="25%" valign=top><a href="sqlite3.html">sqlite3</a><br>
+</td><td width="25%" valign=top><a href="variables.html">variables</a><br>
+</td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-bajaHab"><strong>bajaHab</strong></a>(numero)</dt><dd><tt>Elimina&nbsp;una&nbsp;habitación<br>
+:param&nbsp;numero:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Es&nbsp;el&nbsp;numero&nbsp;de&nbsp;la&nbsp;habitación&nbsp;a&nbsp;borrar<br>
+:return:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;No&nbsp;retorna</tt></dd></dl>
+ <dl><dt><a name="-cambiaestadohab"><strong>cambiaestadohab</strong></a>(libre, numhabres)</dt><dd><tt>Cambia&nbsp;el&nbsp;estado&nbsp;de&nbsp;libre&nbsp;a&nbsp;ocupado&nbsp;en&nbsp;las&nbsp;habitaciones<br>
+:param&nbsp;libre:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Contiene&nbsp;el&nbsp;valor&nbsp;"Si"&nbsp;o&nbsp;"No"&nbsp;dependiendo&nbsp;de&nbsp;cual&nbsp;queramos&nbsp;asignarle<br>
+:param&nbsp;numhabres:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Contiene&nbsp;el&nbsp;numero&nbsp;de&nbsp;la&nbsp;habitacion&nbsp;asociado&nbsp;a&nbsp;la&nbsp;reserva<br>
+:return:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;No&nbsp;retorna</tt></dd></dl>
+ <dl><dt><a name="-clearEntry"><strong>clearEntry</strong></a>(fila)</dt><dd><tt>Limpiar&nbsp;los&nbsp;entry&nbsp;de&nbsp;la&nbsp;interfaz&nbsp;de&nbsp;habitación<br>
+:param&nbsp;fila:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Contiene&nbsp;el&nbsp;listado&nbsp;de&nbsp;widgets&nbsp;que&nbsp;van&nbsp;a&nbsp;limpiar&nbsp;tras&nbsp;ejecutar&nbsp;un&nbsp;evento<br>
+:return:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;No&nbsp;retorna</tt></dd></dl>
+ <dl><dt><a name="-findPrecio"><strong>findPrecio</strong></a>(habitacion)</dt><dd><tt>Busca&nbsp;el&nbsp;precio&nbsp;de&nbsp;la&nbsp;habitación<br>
+:param&nbsp;habitacion:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Contiene&nbsp;el&nbsp;numero&nbsp;de&nbsp;la&nbsp;habitación&nbsp;a&nbsp;buscarº<br>
+:return:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Retorna&nbsp;el&nbsp;precio&nbsp;de&nbsp;la&nbsp;habitación</tt></dd></dl>
+ <dl><dt><a name="-insertarhab"><strong>insertarhab</strong></a>(fila)</dt><dd><tt>Inserta&nbsp;las&nbsp;habitaciones&nbsp;en&nbsp;la&nbsp;base&nbsp;de&nbsp;datos<br>
+:param&nbsp;fila:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Contiene&nbsp;los&nbsp;datos&nbsp;necesarios&nbsp;para&nbsp;dar&nbsp;de&nbsp;alta&nbsp;la&nbsp;habitación<br>
+:return:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;No&nbsp;retorna</tt></dd></dl>
+ <dl><dt><a name="-listadohab"><strong>listadohab</strong></a>(listhabitaciones)</dt><dd><tt>Carga&nbsp;los&nbsp;datos&nbsp;de&nbsp;las&nbsp;habitaciones&nbsp;en&nbsp;el&nbsp;listView<br>
+:param&nbsp;listhabitaciones:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Contiene&nbsp;datos&nbsp;de&nbsp;las&nbsp;habitaciones<br>
+:return:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;No&nbsp;retorna</tt></dd></dl>
+ <dl><dt><a name="-listar"><strong>listar</strong></a>()</dt><dd><tt>Carga&nbsp;una&nbsp;variable&nbsp;con&nbsp;todos&nbsp;los&nbsp;datos&nbsp;de&nbsp;las&nbsp;habitaciones<br>
+:return:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Retorna&nbsp;una&nbsp;variable&nbsp;con&nbsp;los&nbsp;datos&nbsp;de&nbsp;las&nbsp;habitaciones</tt></dd></dl>
+ <dl><dt><a name="-modificarHab"><strong>modificarHab</strong></a>(registro)</dt><dd><tt>Modifica&nbsp;los&nbsp;datos&nbsp;de&nbsp;una&nbsp;habitación<br>
+:param&nbsp;registro:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Contiene&nbsp;el&nbsp;_numero,&nbsp;_tipo,&nbsp;_precio,&nbsp;_ocupado<br>
+:return:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;No&nbsp;retorna</tt></dd></dl>
+ <dl><dt><a name="-precioTotal"><strong>precioTotal</strong></a>(noches, precio)</dt><dd><tt>Calcula&nbsp;el&nbsp;precio&nbsp;total<br>
+:param&nbsp;noches:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Contiene&nbsp;el&nbsp;numero&nbsp;de&nbsp;noches<br>
+:param&nbsp;precio:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Contiene&nbsp;el&nbsp;precio&nbsp;de&nbsp;la&nbsp;habitación<br>
+:return:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Retorna&nbsp;el&nbsp;precio&nbsp;total&nbsp;una&nbsp;vez&nbsp;comentada</tt></dd></dl>
+</td></tr></table>
+</body></html>
